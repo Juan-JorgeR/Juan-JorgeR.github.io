@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#tituloPagina {
+    padding: 2em;
+    background-color: #115555;
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    padding: 2em;
+}
+article {
+    color: #000000;
+    margin: 0em 0em 0em 0em;
+    box-shadow: 6px 6px 5px gray;
+}
+article p {
+    padding: 2em;
+    width: 40em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+article div {
+    padding: 1em 1em;
+}
+.ejemplo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ejemplo div {
+    width: 40%;
+}
+.etiqueta h2 {
+    background-color: #55555f;
+    color: #eee;
+    padding: 1em;
+}
