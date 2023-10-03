@@ -13,7 +13,7 @@ section {
 }
 article {
     color: #000000;
-    margin: 0em 0em 0em 0em;
+    margin: 4em 0 4em 0;
     box-shadow: 6px 6px 5px gray;
 }
 article p {
@@ -21,6 +21,7 @@ article p {
     width: 40em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    color: #33333f;
 }
 article div {
     padding: 1em 1em;
@@ -31,10 +32,37 @@ article div {
     flex-wrap: wrap;
 }
 .ejemplo div {
-    width: 40%;
+    width: 45%;
+}
+.codigo pre {
+    overflow: scroll;
+    height: 300px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(190, 71, 1);
+}
+.despliege {
+    height: 300px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #115555;
+}
+.despliege img {
+    width: 480px;
+    height: 100px;
+}
+iframe {
+    width: 100%;
+    height: 300px;
+    border: 3px;
+    border-color: #115555;
 }
 .etiqueta h2 {
     background-color: #55555f;
     color: #eee;
     padding: 1em;
+}
+code {
+    font-family: monospace;
+    font-size: 20px;
 }

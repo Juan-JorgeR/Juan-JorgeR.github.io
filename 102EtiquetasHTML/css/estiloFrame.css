@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100px;
+    height: 40px;
+}
+header {
+    font-size: 25px;
+}
+main {
+
+}
+#ejemploEtiquetaMain {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #aaffff;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+section {
+    padding: 1em;
+    background-color: #eee;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #aaffff;
+
+    float: left;
+    width: 50%;
+    margin: 20px;
+}
+aside {
+    float: left;
+    width: 25%;
+    margin: 20px 0px;
+    padding: 20px;
+
+    background: #eee;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #aaffff;
+}
+article {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #115555;
+}
+nav {
+    background: #115555;
+    padding: 5px 15px;
+    color: #eee;
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+}
+div {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    background-color: antiquewhite;
+    width: 25em;
+    height: 25em;
+    padding: 1em;
+}
+footer {
+    clear: both;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
